@@ -15,7 +15,7 @@ body {
   margin: 250px auto 0 auto;
   width: 80%;
   text-align: left;
-
+  color: #383733;
 }
 
 h1 {
@@ -23,6 +23,68 @@ text-align: center;
 
 }
 
+.page1{
+  text-align: center;
+  color:#383733;
+}
+
+.page2{
+  text-align: center;
+  color: #383733;
+}
+
+.page3{
+    text-align: center;
+    color: #383733;
+}
+
+.page4{
+  text-align: center;
+  color: #383733;
+}
+
+.three{
+  text-align: center;
+  color: #383733;
+}
+
+.two{
+  text-align: center;
+  color: #383733;
+}
+
 canvas {
   display: block;
+}
+
+.page1{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+    width: 300px;
+    height: auto;
+}
+
+.page2{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+    width: 300px;
+    height: auto;
+}
+
+.page3{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+    width: 300px;
+    height: auto;
+}
+
+.page4{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+    width: 300px;
+    height: auto;
 }
