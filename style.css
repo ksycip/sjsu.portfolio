@@ -2,6 +2,27 @@ html, body {
   margin: 0;
   padding: 0;
 }
+
+html {
+  background: url(assets/SYCIP_PORTFOLIOPic.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  margin: 250px auto 0 auto;
+  width: 80%;
+  text-align: left;
+
+}
+
+h1 {
+text-align: center;
+
+}
+
 canvas {
   display: block;
 }
