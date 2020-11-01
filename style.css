@@ -25,21 +25,25 @@ text-align: center;
 
 .page1{
   text-align: center;
+  font-size: 35px;
   color:#383733;
 }
 
 .page2{
   text-align: center;
+  font-size: 35px;
   color: #383733;
 }
 
 .page3{
     text-align: center;
+    font-size: 35px;
     color: #383733;
 }
 
 .page4{
   text-align: center;
+  font-size: 35px;
   color: #383733;
 }
 
@@ -63,6 +67,7 @@ canvas {
   margin-right: auto;
     width: 300px;
     height: auto;
+
 }
 
 .page2{
@@ -71,6 +76,7 @@ canvas {
   margin-right: auto;
     width: 300px;
     height: auto;
+
 }
 
 .page3{
