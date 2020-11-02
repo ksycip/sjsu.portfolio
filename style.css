@@ -4,11 +4,16 @@ html, body {
 }
 
 html {
-  background: url(assets/SYCIP_PORTFOLIOPic.jpg) no-repeat center center fixed;
+  background: url(assets/sycip_img.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+nav {
+  font-family: "Didot", Times, serif;
+
 }
 
 body {
@@ -20,31 +25,87 @@ body {
 
 h1 {
 text-align: center;
+font-size: 90px;
+color:#383733;
+font-family: "Didot", Times, serif;
+/* text-shadow: 2px 2px 4px #000000; */
+text-shadow: 2px 2px 4px #363532;
+
+}
+
+h2 {
+text-align: center;
+font-size: 30px;
+font-family: "Didot", Times, serif;
+color:#383733;
+
+}
+
+h3 {
+
+  text-align: center;
+  font-size: 16px;
+  font-family: "Didot", Times, serif;
+  color:#383733;
+}
+
+h4{
+  text-align: center;
+  font-size: 14px;
+  font-family: "Didot", Times, serif;
+  color:#383733;
+
+}
+
+video {
+  margin-left: 50vw;
+  transform: translate(-50%);
+}
+
+#a{
+  text-align: center;
+
+}
+
+.page0{
+  text-align: center;
+  font-size: 30px;
+  color:#383733;
+  font-family: "Didot", Times, serif;
+
 
 }
 
 .page1{
   text-align: center;
-  font-size: 35px;
+  font-size: 30px;
   color:#383733;
+  font-family: "Didot", Times, serif;
+
 }
 
 .page2{
   text-align: center;
-  font-size: 35px;
+  font-size: 30px;
   color: #383733;
+  font-family: "Didot", Times, serif;
+
 }
 
 .page3{
     text-align: center;
-    font-size: 35px;
+    font-size: 30px;
     color: #383733;
+    font-family: "Didot", Times, serif;
+
 }
 
 .page4{
   text-align: center;
-  font-size: 35px;
+  font-size: 30px;
   color: #383733;
+  font-family: "Didot", Times, serif;
+
 }
 
 .three{
@@ -61,11 +122,19 @@ canvas {
   display: block;
 }
 
+.page0{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+    width: 600px;
+    height: auto;
+}
+
 .page1{
   display: block;
   margin-left: auto;
   margin-right: auto;
-    width: 300px;
+    width: 600px;
     height: auto;
 
 }
@@ -74,7 +143,7 @@ canvas {
   display: block;
   margin-left: auto;
   margin-right: auto;
-    width: 300px;
+    width: 600px;
     height: auto;
 
 }
@@ -83,7 +152,7 @@ canvas {
   display: block;
   margin-left: auto;
   margin-right: auto;
-    width: 300px;
+    width: 600px;
     height: auto;
 }
 
@@ -91,6 +160,11 @@ canvas {
   display: block;
   margin-left: auto;
   margin-right: auto;
-    width: 300px;
+    width: 600px;
     height: auto;
+}
+
+img {
+  max-width: 55%;
+  height: auto;
 }
