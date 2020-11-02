@@ -17,10 +17,17 @@ nav {
 }
 
 body {
-  margin: 250px auto 0 auto;
-  width: 80%;
+  /* margin: 250px auto 0 auto;
+  width: 80%; */
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 20px;
   text-align: left;
   color: #383733;
+}
+.wanderlust_description,.beautiful_companions,.matter_over_mind,.moga{
+  padding-left: 80px;
+  padding-right: 80px;
 }
 
 h1 {
@@ -57,10 +64,10 @@ h4{
 
 }
 
-video {
-  margin-left: 50vw;
-  transform: translate(-50%);
+.video1,.video2,.images {
+  text#929ead center;
 }
+
 
 #a{
   text-align: center;
@@ -127,12 +134,14 @@ canvas {
   display: block;
 }
 
+
 .page0{
   display: block;
   margin-left: auto;
   margin-right: auto;
     width: 600px;
     height: auto;
+  text-align: center;
 }
 
 .page1{
@@ -172,4 +181,76 @@ canvas {
 img {
   max-width: 55%;
   height: auto;
+}
+
+.button {
+  margin-top: 150px;
+  margin-left: 200px;
+}
+
+.btn {
+  border: 1px solid #929ead;
+  padding:10px 30px;
+  color: #929ead;
+  text-decoration: none;
+  margin-right: 5px;
+  font-size: 13px;
+  text-transform: uppercase;
+  float: left;
+}
+
+
+.btn-one {
+  padding: 12px 28px;
+  font-family: "Didot", Times, serif;
+}
+
+.btn-one:hover{
+  color: black;
+  background-color: #929ead;
+  transition: all 0.5s ease-in;
+}
+
+.btn-two {
+  padding: 12px 28px;
+  font-family: "Didot", Times, serif;
+}
+
+.btn-two:hover{
+  color:black;
+  background-color: #929ead;
+  transition: all 0.5s ease-in;
+}
+
+.btn-three {
+  padding: 12px 28px;
+  font-family: "Didot", Times, serif;
+}
+
+.btn-three:hover{
+  color:black;
+  background-color: #929ead;
+  transition: all 0.5s ease-in;
+}
+
+.btn-four{
+  padding: 12px 28px;
+  font-family: "Didot", Times, serif;
+}
+
+.btn-four:hover{
+  color:black;
+  background-color: #929ead;
+  transition: all 0.5s ease-in;
+}
+
+.btn-five{
+  padding: 12px 28px;
+  font-family: "Didot", Times, serif;
+}
+
+.btn-five:hover{
+  color:black;
+  background-color: #929ead;
+  transition: all 0.5s ease-in;
 }
