@@ -27,8 +27,8 @@ body {
 
 .wanderlust_description, .beautiful_companions, .matter_over_mind, .moga, .avatar_description, .film, .randomizer_description,
 .bw, .PenCilate, .textures, .statement{
-  padding-left: 80px;
-  padding-right: 80px;
+  padding-left: 95px;
+  padding-right: 95px;
   /* padding-left: 2.5%;
   padding-right: 2.5%; */
 }
@@ -42,6 +42,7 @@ body {
   padding-left: 80px;
   padding-right: 80px;
 } */
+
 h1 {
   text-align: center;
   font-size: 90px;
@@ -50,6 +51,7 @@ h1 {
   /* text-shadow: 2px 2px 4px #000000; */
   text-shadow: 2px 2px 4px #363532;
 }
+
 
 h2 {
   text-align: center;
@@ -81,6 +83,7 @@ h4 {
 
 .video1, .video2, .images, .link_1, .link_2, .images2, .images3, .images4, .images5, .images6,{
   text-align: center;
+  font-family: "Didot", Times, serif;
 }
 
 .center {
@@ -106,6 +109,9 @@ h4 {
   font-size: 30px;
   color: #383733;
   font-family: "Didot", Times, serif;
+
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .page1 {
@@ -202,14 +208,15 @@ img {
 }
 
 .btn {
-  border: 1px solid #929ead;
+  border: 1px solid #345179;
   padding: 10px 30px;
-  color: #929ead;
+  color: #345179;
   text-decoration: none;
   margin-right: 5px;
   font-size: 13px;
   text-transform: uppercase;
   float: left;
+  margin-bottom: 25px;
 }
 
 .btn-one {
