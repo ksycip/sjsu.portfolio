@@ -27,9 +27,16 @@ body {
 
 .wanderlust_description, .beautiful_companions, .matter_over_mind, .moga, .avatar_description, .film, .randomizer_description,
 .bw, .PenCilate,{
-  padding-left: 80px;
-  padding-right: 80px;
+  /* padding-left: 80px;
+  padding-right: 80px; */
+  padding-left: 2.5%;
+  padding-right: 2.5%;
 }
+/* 
+.wanderlust_description{
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+} */
 
 /* .images2, .images3, .images4,{
   padding-left: 80px;
@@ -58,6 +65,13 @@ h3 {
   color: #383733;
 }
 
+.link1,.link2,{
+  text-align: center;
+  font-size: 16px;
+  font-family: "Didot", Times, serif;
+  color: #383733;
+}
+
 h4 {
   text-align: center;
   font-size: 14px;
@@ -66,7 +80,7 @@ h4 {
 }
 
 .video1, .video2, .images, .link_1, .link_2, .images2, .images3, .images4, .images5, .images6,{
-  text#929ead center;
+  text-align: center;
 }
 
 .center {
