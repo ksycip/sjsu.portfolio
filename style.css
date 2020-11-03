@@ -13,7 +13,6 @@ html {
 
 nav {
   font-family: "Didot", Times, serif;
-
 }
 
 body {
@@ -25,107 +24,110 @@ body {
   text-align: left;
   color: #383733;
 }
-.wanderlust_description,.beautiful_companions,.matter_over_mind,.moga{
+
+.wanderlust_description, .beautiful_companions, .matter_over_mind, .moga, .avatar_description, .film, .randomizer_description,
+.bw, .PenCilate, {
   padding-left: 80px;
   padding-right: 80px;
 }
 
+/* .images2, .images3, .images4,{
+  padding-left: 80px;
+  padding-right: 80px;
+} */
 h1 {
-text-align: center;
-font-size: 90px;
-color:#383733;
-font-family: "Didot", Times, serif;
-/* text-shadow: 2px 2px 4px #000000; */
-text-shadow: 2px 2px 4px #363532;
-
+  text-align: center;
+  font-size: 90px;
+  color: #383733;
+  font-family: "Didot", Times, serif;
+  /* text-shadow: 2px 2px 4px #000000; */
+  text-shadow: 2px 2px 4px #363532;
 }
 
 h2 {
-text-align: center;
-font-size: 30px;
-font-family: "Didot", Times, serif;
-color:#383733;
-
+  text-align: center;
+  font-size: 30px;
+  font-family: "Didot", Times, serif;
+  color: #383733;
 }
 
 h3 {
-
   text-align: center;
   font-size: 16px;
   font-family: "Didot", Times, serif;
-  color:#383733;
+  color: #383733;
 }
 
-h4{
+h4 {
   text-align: center;
   font-size: 14px;
   font-family: "Didot", Times, serif;
-  color:#383733;
-
+  color: #383733;
 }
 
-.video1,.video2,.images {
+.video1, .video2, .images, .link_1, .link_2, .images2, .link_2, .images3, .images4, .images5, .images6, {
   text#929ead center;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
-#a{
+.center-block {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 50%;
+}
+
+#a {
   text-align: center;
-
 }
 
-#b{
-text-align: center;
-
-}
-
-.page0{
-  text-align: center;
-  font-size: 30px;
-  color:#383733;
-  font-family: "Didot", Times, serif;
-
-
-}
-
-.page1{
-  text-align: center;
-  font-size: 30px;
-  color:#383733;
-  font-family: "Didot", Times, serif;
-
-}
-
-.page2{
+.page0 {
   text-align: center;
   font-size: 30px;
   color: #383733;
   font-family: "Didot", Times, serif;
-
 }
 
-.page3{
-    text-align: center;
-    font-size: 30px;
-    color: #383733;
-    font-family: "Didot", Times, serif;
-
-}
-
-.page4{
+.page1 {
   text-align: center;
   font-size: 30px;
   color: #383733;
   font-family: "Didot", Times, serif;
-
 }
 
-.three{
+.page2 {
+  text-align: center;
+  font-size: 30px;
+  color: #383733;
+  font-family: "Didot", Times, serif;
+}
+
+.page3 {
+  text-align: center;
+  font-size: 30px;
+  color: #383733;
+  font-family: "Didot", Times, serif;
+}
+
+.page4 {
+  text-align: center;
+  font-size: 30px;
+  color: #383733;
+  font-family: "Didot", Times, serif;
+}
+
+.three {
   text-align: center;
   color: #383733;
 }
 
-.two{
+.two {
   text-align: center;
   color: #383733;
 }
@@ -134,48 +136,45 @@ canvas {
   display: block;
 }
 
-
-.page0{
+.page0 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-    width: 600px;
-    height: auto;
+  width: 600px;
+  height: auto;
   text-align: center;
 }
 
-.page1{
+.page1 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-    width: 600px;
-    height: auto;
-
+  width: 600px;
+  height: auto;
 }
 
-.page2{
+.page2 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-    width: 600px;
-    height: auto;
-
+  width: 600px;
+  height: auto;
 }
 
-.page3{
+.page3 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-    width: 600px;
-    height: auto;
+  width: 600px;
+  height: auto;
 }
 
-.page4{
+.page4 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-    width: 600px;
-    height: auto;
+  width: 600px;
+  height: auto;
 }
 
 img {
@@ -190,7 +189,7 @@ img {
 
 .btn {
   border: 1px solid #929ead;
-  padding:10px 30px;
+  padding: 10px 30px;
   color: #929ead;
   text-decoration: none;
   margin-right: 5px;
@@ -199,13 +198,12 @@ img {
   float: left;
 }
 
-
 .btn-one {
   padding: 12px 28px;
   font-family: "Didot", Times, serif;
 }
 
-.btn-one:hover{
+.btn-one:hover {
   color: black;
   background-color: #929ead;
   transition: all 0.5s ease-in;
@@ -216,8 +214,8 @@ img {
   font-family: "Didot", Times, serif;
 }
 
-.btn-two:hover{
-  color:black;
+.btn-two:hover {
+  color: black;
   background-color: #929ead;
   transition: all 0.5s ease-in;
 }
@@ -227,30 +225,30 @@ img {
   font-family: "Didot", Times, serif;
 }
 
-.btn-three:hover{
-  color:black;
+.btn-three:hover {
+  color: black;
   background-color: #929ead;
   transition: all 0.5s ease-in;
 }
 
-.btn-four{
+.btn-four {
   padding: 12px 28px;
   font-family: "Didot", Times, serif;
 }
 
-.btn-four:hover{
-  color:black;
+.btn-four:hover {
+  color: black;
   background-color: #929ead;
   transition: all 0.5s ease-in;
 }
 
-.btn-five{
+.btn-five {
   padding: 12px 28px;
   font-family: "Didot", Times, serif;
 }
 
-.btn-five:hover{
-  color:black;
+.btn-five:hover {
+  color: black;
   background-color: #929ead;
   transition: all 0.5s ease-in;
 }
